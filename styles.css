@@ -1,0 +1,82 @@
+/* #####stylesheet##### */
+
+/* universal selector. sets the marggin and padding 0 globally */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body, html{
+    height: 100%;
+}
+
+
+/* styling of the paralax effect */
+.parallax-effect{
+    /* image used */
+    background-image: url(images/fabian-grohs-XMFZqrGyV-Q-unsplash.jpg);
+    
+
+    /*setting up a minimum height */
+    
+    height: 500px;
+    
+    /* This will create a parallax scrolling effect */
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: darkgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+   
+/* This will style the navigation bar! */
+nav{
+    width: 100%;
+    height: 0vh;
+
+}
+/*  this set the nav bar on the top right corner since we already use nav element */
+nav ul{
+    float: right;
+    margin-right: 30;
+}
+/* will define all the elements inside the nav ul and li tag */
+nav ul li{
+   font-family: Arial, Helvetica, sans-serif;
+   color: white; 
+   list-style-type: none;
+   display: inline-block;
+   font-size: 18px;
+   padding: 20px;
+}
+/* sets  the hover */
+nav ul li:hover{
+    background-color: crimson;
+    transition: 1s all;
+}
+/* will style the text and the screen that show a parallax scrolling effect */
+.screen{
+    background-color: black;
+}
+.text{
+    height: auto;
+    color: olive;
+    font-size: 32px;
+    font-family: cursive;
+    text-align: center;  
+}
+
+.img-2{
+    background-image: url(images/emile-perron-xrVDYZRGdw4-unsplash.jpg);
+    height: 500px;
+    
+    /* This will create a parallax scrolling effect */
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
